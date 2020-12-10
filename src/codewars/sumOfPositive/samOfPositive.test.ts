@@ -1,4 +1,5 @@
-import {positiveSum} from "./SumOfPositive";
+import {positiveSum} from "./sumOfPositive";
+
 
 let arr1: Array<number>;
 let arr2: number[];
@@ -15,10 +16,10 @@ beforeEach( () => {
 
 
 test('Sum should be of positive', () => {
-    const result1 = positiveSum(arr1);
-    const result2 = positiveSum(arr2);
-    const result3 = positiveSum(arr3);
-    const result4 = positiveSum(arr4);
+    const result1: number = positiveSum(arr1);
+    const result2: number = positiveSum(arr2);
+    const result3: number = positiveSum(arr3);
+    const result4: number = positiveSum(arr4);
 
     expect(result1).toBe(5);
     expect(result2).toBe(0);
