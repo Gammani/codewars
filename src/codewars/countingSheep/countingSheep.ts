@@ -1,4 +1,4 @@
-export function countSheeps(arrayOfSheep: (boolean | undefined | null)[]) {
+export function countSheeps(arrayOfSheep: (boolean | undefined | null)[]): number {
     let counter = 0;
     if(arrayOfSheep) {
         for(let i = 0; i < arrayOfSheep.length; i++) {
