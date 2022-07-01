@@ -1,4 +1,4 @@
-import {boolToWord} from "./convertBooleanValuesToStrings'Yes'or'No'";
+import {boolToWord} from "./convertBooleanValuesToStrings\'Yes\'or\'No\'";
 
 let booleanValue1: boolean;
 let booleanValue2: boolean;
